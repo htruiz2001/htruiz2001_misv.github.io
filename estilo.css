@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*General*/
+
+body{
+    background: rgba(107, 208, 13, 0.608);
+}
+
+img{
+    width: 200px;
+    height: 15  0px;
+    position: relative;
+    left: 120px;
+    margin-top: 10px;
+}
+
+div{
+    padding: 5px;
+}
+
+p{
+    font-size: 25px;
+    text-align: center;
+}
+p::selection{
+    background-color: rgba(107, 208, 13, 0.608);
+}
+
+
+h1{
+    text-align: center;
+    background: linear-gradient(0deg, #367e18, green)
+        no-repeat bottom / 0 2px;
+    transition: background-size 1s;
+    text-decoration: none;
+    color: #111;
+    line-height: 1;
+}
+
+h1:hover{
+    background-size: 70% 2px;
+    background-position-x: center; 
+}
+
+li{
+    text-align: center;
+    background: linear-gradient(0deg, #367e18, #111)
+        no-repeat bottom / 0 2px;
+    transition: background-size 1s;
+    text-decoration: none;
+    color: #111;
+    line-height: 1; 
+}
+
+li:hover{
+    background-size: 30% 2px;
+    background-position-x: center;
+}
+
+h1::selection{
+    background-color: gray;
+}
+
+/* Caja del nombre completo*/
+
+.nombre_comp{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 30%;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    background: rgba(128, 128, 128, 0.477);
+    box-shadow: 6px 15px 10px black;
+    float: left;
+}
+
+.np{
+    border: 1px solid black;
+    border-radius: 10px
+}
+
+/* Caja de la cedula*/
+
+.cedula{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 30%;
+    position: relative;
+    top: 30px;
+    left: 55px;
+    background: rgba(128, 128, 128, 0.477);
+    box-shadow: 6px 15px 10px black;
+    float: left;
+}
+
+.cd{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/*Numero de telefono*/
+
+.telefono{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 30%;
+    position: relative;
+    top: 30px;
+    left: 90px;
+    background: rgba(128, 128, 128, 0.477);
+    box-shadow: 6px 15px 10px black;
+    float: left;
+}
+
+.tl{
+    border: 1px solid black;
+    border-radius: 10px; 
+}
+
+/*Direccion*/
+
+.direccion{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 30%;
+    position: relative;
+    top: 105px;
+    left: 10px;
+    background: rgba(128, 128, 128, 0.477);
+    box-shadow: 6px 15px 10px black;
+    float: left;
+}
+
+.direc{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/*email*/
+
+.email{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 30%;
+    position: relative;
+    top: 105px;
+    left: 55px;
+    background: rgba(128, 128, 128, 0.477);
+    box-shadow: 6px 15px 10px black;
+    float: left;
+}
+
+.correo{
+    border: 1px solid black;
+    border-radius: 10px; 
+}
+
+/*Estudio realizados*/
+
+.estudios_rea{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 30%;
+    position: relative;
+    top: 105px;
+    left: 90px;
+    background: rgba(128, 128, 128, 0.477);
+    box-shadow: 6px 15px 10px black;
+    float: left;
+}
+
+.estudios{
+    border: 1px solid black;
+    border-radius: 10px; 
+}
+
+/*Idioma que dominas*/
+
+.idioma_domina{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 30%;
+    position: relative;
+    top: 175px;
+    left: 10px;
+    background: rgba(128, 128, 128, 0.477);
+    box-shadow: 6px 15px 10px black;
+    float: left;
+}
+
+.idioma{
+    border: 1px solid black;
+    border-radius: 10px; 
+}
+
+/*Pasa tiempos*/
+
+.pasa_tiempo{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 30%;
+    position: relative;
+    top: 175px;
+    left: 90px;
+    background: rgba(128, 128, 128, 0.477);
+    box-shadow: 6px 15px 10px black;
+    float: left;
+}
+
+.tiempo_pasa{
+    border: 1px solid black;
+    border-radius: 10px; 
+}
+
+/*Peliculas favoritas*/
+
+.peli_fav{
+    order: 5px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 30%;
+    position: relative;
+    top: 230px;
+    left: -910px;
+    background: rgba(128, 128, 128, 0.477);
+    box-shadow: 6px 15px 10px black;
+    float: left;
+}
+
+summary{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+ul{
+    position: relative;
+    left: 20px;
+}
+
+ul li{
+    font-size: 25px;
+}
+
+/*Video de como estare en 10 años*/
+
+.video{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 30%;
+    position: relative;
+    top: 175px;
+    left: 55px;
+    background: rgba(128, 128, 128, 0.477);
+    box-shadow: 6px 15px 10px black;
+    float: left;
+    
+    
+}
+
+.vd{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+video{
+    height: 200px;
+    position: relative;
+    left: 45px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
